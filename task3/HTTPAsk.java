@@ -5,11 +5,11 @@ import java.nio.charset.StandardCharsets;
 
 public class HTTPAsk {
     static int BUFFERSIZE = 1024;
-    static boolean shutdown = false;             // True if client should shutdown connection
-    static Integer timeout = null;			     // Max time to wait for data from server (null if no limit)
-    static Integer limit = null;			     // Max no. of bytes to receive from server (null if no limit)
-    static String hostname = null;			     // Domain name of server
-    static Integer port = null;					 // Server port number
+    static boolean shutdown = false;             
+    static Integer timeout = null;			    
+    static Integer limit = null;		
+    static String hostname = null;			
+    static Integer port = null;				
     static String string = "";
 
     public static void main( String[] args) throws IOException {
