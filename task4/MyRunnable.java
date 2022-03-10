@@ -15,11 +15,11 @@ public class MyRunnable implements Runnable{
 
     public void run() {
         int BUFFERSIZE = 1024;
-        boolean shutdown = false;           // True if client should shutdown connection
-        Integer timeout = null;			    // Max time to wait for data from server (null if no limit)
-        Integer limit = null;			    // Max no. of bytes to receive from server (null if no limit)
-        String hostname = null;			    // Domain name of server
-        Integer port = null;			    // Server port number
+        boolean shutdown = false;         
+        Integer timeout = null;			    
+        Integer limit = null;			    
+        String hostname = null;			
+        Integer port = null;			   
         String string = "";
 
         try {
